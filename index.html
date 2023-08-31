@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src='bloggerscript.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Anime Blogger</title>
+  <style>
+    .timeline .item:nth-child(2n) {
+      background: #191821;
+    }
+
+    .timeline .item {
+      display: grid;
+      padding: 10px 0;
+      color: white;
+      grid-template-columns: 10% 1fr auto;
+    }
+
+    .watch {
+      float: right;
+      width: 90px;
+      margin-right: 15px;
+      margin-top: 10px;
+      border: 1.2px solid #bbb;
+      border-top-color: rgb(187, 187, 187);
+      border-right-color: rgb(187, 187, 187);
+      border-bottom-color: rgb(187, 187, 187);
+      border-left-color: rgb(187, 187, 187);
+      color: #888;
+      text-align: center;
+      padding: 1px 0;
+      font-size: .8em;
+    }
+  </style>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body class="p-5 bg-white dark:bg-gray-900 antialiased">
+
+  <div id='jadwalRilis'></div>
+  <script src='main.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+
+</html>
